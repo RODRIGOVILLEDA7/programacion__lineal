@@ -1,4 +1,4 @@
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 ## Haciendo cosas chidas de programacion lineal
 
 A.py
@@ -14,8 +14,8 @@ A.py
 
 
 cosas en latex
-
-$\frac{\lambdax}{\sin x}$
+(\frac{\lambda x}{\sin x})
+$\frac{\lambda x}{\sin x}$
 
 
 
