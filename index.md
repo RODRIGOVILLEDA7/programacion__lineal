@@ -5,9 +5,13 @@ A.py
 
 
 
-##enlaces 
--[pagina de python](https://www.onlinegdb.com/online_python_compiler)
--[pagina de mi ghithub](https://github.com/RODRIGOVILLEDA7/programacion__lineal)
+##enlaces
+
+- [pagina de python](https://www.onlinegdb.com/online_python_compiler)
+- [pagina de mi ghithub](https://github.com/RODRIGOVILLEDA7/programacion__lineal)
+- [gaussianos](https://www.gaussianos.com/)
+
+
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
