@@ -2,7 +2,7 @@
 ## Haciendo cosas chidas de programacion lineal
 
 A.py
-
+![lineal](1.jpg)
 
 
 
@@ -14,10 +14,10 @@ A.py
 
 
 cosas en latex
-(\frac{\lambda x}{\sin x})
 
 $$\frac{\lambda x}{\sin x}$$
 
+$$\sqrt{x}$$
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
