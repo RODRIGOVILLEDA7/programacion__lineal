@@ -1,3 +1,4 @@
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 ## Haciendo cosas chidas de programacion lineal
 
 A.py
@@ -11,6 +12,10 @@ A.py
 - [pagina de mi ghithub](https://github.com/RODRIGOVILLEDA7/programacion__lineal)
 - [gaussianos](https://www.gaussianos.com/)
 
+
+cosas en latex
+
+$\frac{\lambdax}{\sin x}$
 
 
 
