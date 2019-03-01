@@ -15,7 +15,8 @@ A.py
 
 cosas en latex
 (\frac{\lambda x}{\sin x})
-$\frac{\lambda x}{\sin x}$
+
+$$\frac{\lambda x}{\sin x}$$
 
 
 
