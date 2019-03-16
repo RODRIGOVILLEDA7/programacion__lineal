@@ -1,0 +1,187 @@
+\documentclass[12pt]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amssymb}
+\spanishdecimal{.}
+
+\voffset-1.0in \textheight9.75in \textwidth6.5in \hoffset-0.5in
+\begin{document}
+
+%\includegraphics[scale=0.65]{escudouaeh.pdf}\includegraphics[scale=1.0]{uni.pdf}
+\pagestyle{empty}
+
+\begin{center}
+
+
+\footnotesize{\textbf{Modelos Matemáticos Continuos}}
+\\
+\normalsize{Actividad 1403}
+\end{center}
+
+
+\textbf{Nombre: Uriel Alejandro Nolasco Hernández}
+\section{Actividad 1}
+
+Partiendo del sistema del siguiente ecuaciones diferencial
+
+\begin{align*}
+    \frac{dx}{dt}&=2x+6y\\
+  \frac{dy}{dt}&=-2x-5y\\
+\end{align*} 
+Se obtiene
+\begin{align*}
+    \frac{dx}{dy}&=\frac{2x+6y}{-2x-5y}
+\end{align*}
+
+Se deduce la siguiente matriz 
+
+\begin{equation}\label{matriz}
+    \mathbf{A}=\left(\begin{array}{ccc}
+         2 & 6 \\
+        -2 & -5 \\
+    \end{array}\right)
+\end{equation}
+
+Los valores propios de la matriz son $\lambda_1={-1}$ y $\lambda_2=-2$ y sus vectores propios correspondientes respectivamente son:
+\begin{equation}\label{v1}
+    \mathbf{v_1}=\left(\begin{array}{ccc}
+         -2\\
+          1\\
+ \end{array}\right)
+\end{equation}
+\begin{equation}\label{v2}
+    \mathbf{v_2}=\left(\begin{array}{ccc}
+         3\\
+         -2\\
+ \end{array}\right)
+\end{equation}
+
+\section{Actividad 2}
+
+Considere el siguiente sistema de ecuaciones diferencial:
+
+\begin{align*}
+    \frac{dx}{dt}&=-3x-4y\\
+  \frac{dy}{dt}&=x+y\\
+\end{align*}
+
+Se obtiene
+
+\begin{align*}
+    \frac{dx}{dy}&=\frac{-3x-4y}{x+y}
+\end{align*}
+
+La matriz asociada al sistema
+
+\begin{equation}\label{matriz}
+    \mathbf{A}=\left(\begin{array}{ccc}
+         -3 & -4 \\
+        1 & 1 \\
+    \end{array}\right)
+\end{equation}
+
+El valor propio correspondiente a la matriz es $\lambda_1={-1}$  su vector propio correspondiente:
+\begin{equation}\label{v1}
+    \mathbf{v_1}=\left(\begin{array}{ccc}
+         -2\\
+          1\\
+ \end{array}\right)
+\end{equation}
+
+\section{Actividad 3}
+Los sistemas de ecuaciones son los siguientes:
+
+\begin{align*}
+    \frac{dx}{dt}&=-\frac{3x}{2}-\frac{5y}{2}\\
+    \frac{dy}{dt}&=\frac{5x}{2}+\frac{3y}{2}\\
+\end{align*}
+
+Se obtiene
+
+\begin{align*}  
+  \frac{dx}{dy}&=\frac{-3x-5y}{5x+3y}
+\end{align*}
+La matriz asociada al sistema
+
+\begin{equation}\label{matriz}
+    \mathbf{A}=\left(\begin{array}{ccc}
+         -\frac{3}{2} & -\frac{5}{2} \\
+        \frac{5}{2} & \frac{3}{2} \\
+    \end{array}\right)
+\end{equation}
+
+Los valores propios correspondientes a la matriz son $\lambda_1={2i}$ y $\lambda_2=-2i$ y sus vectores propios correspondientes respectivamente son:
+\begin{equation}\label{v1}
+    \mathbf{v_1}=\left(\begin{array}{ccc}
+         \frac{-3-4i}{5}\\
+          1\\
+ \end{array}\right)
+\end{equation}
+\begin{equation}\label{v1}
+    \mathbf{v_1}=\left(\begin{array}{ccc}
+         \frac{-3+4i}{5}\\
+         1\\
+ \end{array}\right)
+\end{equation}
+
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{11.pdf}
+    \label{diagrama 1}
+\end{figure}
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{12.pdf}
+    \label{diagrama 2}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{13.pdf}
+    \label{diagrama 3}
+  \end{figure}
+
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{21.pdf}
+    \label{diagrama 11}
+\end{figure}
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{22.pdf}
+    \label{diagrama 21}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{23.pdf}
+    \label{diagrama 31}
+  \end{figure}
+
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{31.pdf}
+    \label{diagrama 1}
+\end{figure}
+\pagestyle{empty}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{32.pdf}
+    \label{diagrama 2}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{33.pdf}
+    \label{diagrama 3}
+  \end{figure}
+
+  
+
+  
+
+\end{document}
