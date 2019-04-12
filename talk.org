@@ -1,0 +1,80 @@
+#+title: Emacs tools for math software development
+#+date: January 24, 2018
+#+author: Rafael Villarroel-Flores
+
+#+latex_header: \usepackage{listings}
+
+* Introduction
+
+  I am not a programmer, I am a mathematician that loves using
+  software.
+
+  Emacs is one of my favorite pieces of software (together with TeX,
+  Python, GAP, Sage and git).
+
+  All of them can be used inside Emacs.
+
+  Besides, there is =org-mode=! Among /many/ other uses, =org-mode=
+  can have live blocks of source code in a document.
+
+* Git -> magit
+
+   magit is an Emacs package that provides an interface to git.
+
+   For example, the development of this talk.
+
+   We can, among many other tasks:
+
+   - edit commits,
+
+   - create and checkout branches,
+
+   - push and pull,
+
+   - resolve conflicts
+
+* Sage mode
+
+  =sage-shell-mode= is an alternative to the 'official' =sage-mode=.
+
+  From the documentation:
+
+  =sage-shell-mode= provides two main features:
+
+  - run a Sage terminal inside Emacs.
+
+  - editing Sage source files and sending their contents to the Sage
+    terminal.
+
+  The package supports extensions with =helm-sage=.
+
+  (Code blocks are sent with =C-return=).
+
+* GAP mode
+
+  GAP can also run in a terminal inside Emacs.
+
+  There is also a =GAP= mode for editing GAP files.
+
+* Org mode
+
+  Org mode is an extremely useful Emacs mode. It can be used to:
+
+  - manage appointments,
+
+  - organize ideas,
+
+  - export documents to several formats (pdf, html, ...),
+
+  - edit code blocks in several programming languages, and have the
+    results of execution inserted in the document. (Like Jupyter!)
+
+
+* Thanks
+
+  Thank you for your attention!
+
+  The code for this presentation, and an Emacs configuration ready to
+  run it, can be found at:
+
+  https://github.com/rvf0068

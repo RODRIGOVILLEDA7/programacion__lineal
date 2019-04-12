@@ -1,0 +1,2 @@
+This talk demonstrates the use of mathematical software with
+Emacs. Uses [[https://github.com/howardabrams/demo-it][demo-it]]. Given at [[https://wiki.sagemath.org/days92/][Sage Days 92]].
