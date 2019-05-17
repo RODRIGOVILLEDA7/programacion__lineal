@@ -7,7 +7,7 @@
  programacion lineal a otro.
 
 * Ejemplo
-1. Resuelve el siguiente problema:
+    Resuelve el siguiente problema:
    \begin{equation*}
    \begin{aligned}
    \text{Maximizar} \quad & 2x_{1}+3x_{2}\\
@@ -21,6 +21,18 @@
      \end{aligned}
    \end{aligned}
    \end{equation*}
+
+- Podemos ovservar que bajo las restricciones la funcion ovjetivo en
+  menor que 12, ya que:
+
+  \begin{equation*}
+  2x_{1}+3x_{2}\leq 4x_{1}+8x_{2}\leq 12.
+  \end{equation*}
+
+- Siguiente paso...
+
+- Y el siguiente
+
 * Teoremas
 
 
